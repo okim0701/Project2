@@ -1,0 +1,62 @@
+body
+{
+margin: 0;
+padding: 0;
+background: #1DD8D5;
+overflow: hidden;
+}
+
+#one.pointer
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  box-sizing: border-box;
+  transition: .2s;
+}
+
+#two.pointer
+{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+#three.pointer
+{
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+
+#four.pointer
+{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+#five.pointer
+{
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  box-sizing: border-box;
+  transition: 0.1s;
+}
